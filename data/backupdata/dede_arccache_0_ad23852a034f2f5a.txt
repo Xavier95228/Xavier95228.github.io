@@ -1,0 +1,4 @@
+INSERT INTO `dede_arccache` VALUES('ed5c4582acbef81dfbaea009270e3e03','1542447675','9,3,10');
+INSERT INTO `dede_arccache` VALUES('1a66f2748aa107bfcc08d4ae51aa6e47','1542447680','9,10');
+INSERT INTO `dede_arccache` VALUES('b510fceba115bb3ec8ed5d8db9401359','1542447681','0');
+INSERT INTO `dede_arccache` VALUES('242a50abe62a434bfcce15b09b6d57da','1542447682','0');

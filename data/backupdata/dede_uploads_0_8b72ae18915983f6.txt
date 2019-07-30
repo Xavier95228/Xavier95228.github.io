@@ -1,0 +1,10 @@
+INSERT INTO `dede_uploads` VALUES('2','0','1-150H31626010-L.png','/uploads/allimg/150723/1-150H31626010-L.png','1','0','0','0','63617','1437639961','1');
+INSERT INTO `dede_uploads` VALUES('3','3','2015年兰博基尼工厂实现“二氧化碳中立”','/uploads/allimg/150731/1-150I11A5030-L.jpg','1','0','0','0','933221','1438332903','1');
+INSERT INTO `dede_uploads` VALUES('5','5','芯片市场竞争激烈，高通裁员 15 %、考虑进行拆分','/uploads/allimg/150731/1-150I11H0260-L.jpg','1','0','0','0','68313','1438334426','1');
+INSERT INTO `dede_uploads` VALUES('6','5','芯片市场竞争激烈，高通裁员 15 %、考虑进行拆分','/uploads/allimg/150731/1-150I11H044.jpg','0','0','0','0','68313','1438334444','1');
+INSERT INTO `dede_uploads` VALUES('7','6','导航设计模式的重要意义','/uploads/allimg/150731/1-150I11I0440-L.jpg','1','0','0','0','68313','1438335044','1');
+INSERT INTO `dede_uploads` VALUES('8','6','导航设计模式的重要意义','/uploads/150731/1-150I11I315O9.jpg','1','1059','610','0','268732','1438335195','1');
+INSERT INTO `dede_uploads` VALUES('9','12','响应式Web设计的9项基本原则','/uploads/allimg/150912/1-150912145S80-L.png','1','0','0','0','320894','1442041118','1');
+INSERT INTO `dede_uploads` VALUES('10','13','好想立刻跳进蔚蓝里 全世界最大游泳池','/uploads/allimg/150912/1-1509121459210-L.jpeg','1','0','0','0','139398','1442041161','1');
+INSERT INTO `dede_uploads` VALUES('11','14','导航设计模式的重要意义','/uploads/allimg/150912/1-1509121500040-L.jpeg','1','0','0','0','182783','1442041204','1');
+INSERT INTO `dede_uploads` VALUES('12','15','5项提高产品设计的交互模式','/uploads/allimg/150912/1-1509121500440-L.jpeg','1','0','0','0','125901','1442041244','1');

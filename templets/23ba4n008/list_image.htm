@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+       <meta name="keywords" content="{dede:field name='keywords'/}" />
+       <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+       <meta name="author" content="by www.genban.org">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+
+    
+    <link href="{dede:global.cfg_cmspath/}/genban/css/bootstrap.min.css" rel="stylesheet" />    
+    <link href="{dede:global.cfg_cmspath/}/genban/css/style.css" rel="stylesheet" />
+
+    
+    <link rel="stylesheet" href="{dede:global.cfg_cmspath/}/genban/css/prettyPhoto.css" type="text/css" media="screen" />    
+	<link href="{dede:global.cfg_cmspath/}/genban/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="{dede:global.cfg_cmspath/}/genban/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+   
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="75">
+
+
+	
+	<!-- Preloader -->
+	<div class="mask"><div id="loader"></div></div>
+	<!--/Preloader -->
+    
+ 
+    
+    <!-- Navigation -->
+      {dede:include filename="head.htm"/}
+    <!--/Navigation -->
+    
+  
+    
+    <!-- Blog Header -->
+    <div id="blog-header">
+    
+    	<h1>{dede:field name='typename' /}</h1>
+    
+    </div>
+    <!--/Blog Header -->
+    
+
+    
+    <!-- Blog Content -->
+    <div id="blog" class="clearfix">
+    	
+        <!-- Container -->
+    	<div class="container">
+        
+        
+           <div class="portfolio-top"></div>          
+        
+              
+        <!-- Portfolio Plus Filters -->
+        <div class="portfolio">
+        
+            
+     
+       
+       <!-- Portfolio Filters -->   
+       <div  id="filters" class="sixteen columns">
+    
+          <ul class="clearfix">
+            <li><a id="all" href="#" data-filter="*" class="active"><h5>所有产品</h5></a></li>	
+            {dede:channel type='son' }
+             <li><a href="#" data-filter=".[field:typename/]"><h5>[field:typename/]</h5></a></li>
+            {/dede:channel}
+         
+          </ul>
+        </div>
+        <!--/Portfolio Filters -->
+    
+       
+             
+        <!-- Portfolio Wrap -->  
+        <div id="portfolio-wrap">
+        
+        
+        
+        
+          {dede:list pagesize='9' titlelen='40' infolen='46'}
+                        
+             <div class="portfolio-item one-four [field:typename/] web" style="position: absolute; left: 0px; top: 0px; width: 355px;">
+            
+            <div class="portfolio-image">
+                <img src="[field:picname/]" alt="[field:fulltitle/]" height="271" width="370">
+            </div>
+            
+            <a title="[field:title/]" href="[field:arcurl/]">
+            <div class="project-overlay">              
+                <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">[field:title/]</h4>
+                    <p class="project-categories">[field:typename/]</p>	
+                </div>
+            </div>
+            </a>
+              
+            </div>
+ 
+        
+            {/dede:list}    
+            
+            
+      
+            
+           
+                  
+                 
+       </div>
+       <!--/Portfolio Wrap -->
+            
+        </div>
+        <!--/Portfolio Plus Filters -->
+        
+        
+        
+        
+        
+        <div class="portfolio-bottom"></div>
+
+
+        </div>
+            
+            
+         
+        
+    </div>
+    <!--/Blog Content -->
+    
+    
+    
+    
+    
+    <!-- Blog Navigation -->
+    <div id="blog-footer" class="clearfix">
+    	
+        <!--/Container -->
+        <div class="container no-padding">
+        
+        	<ul class="inner-navigation masonry">
+            
+            	<div class="pagination">
+				 <div class="dede_pages">
+			<ul class="pagelist">
+				 {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+			</ul>
+		</div><!-- /pages -->
+            
+            </ul>
+        
+    	</div>
+    	<!--/Container -->
+    
+    </div>
+    <!--/Blog Navigation -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Footer -->
+       {dede:include filename="footer.htm"/}
+	<!--/Footer -->
+    
+  
+	
+    
+	
+	<script src='{dede:global.cfg_cmspath/}/genban/js/jquery-1.8.3.min.js'></script>
+    <script src="{dede:global.cfg_cmspath/}/genban/js/jquery.sticky.js"></script>	    
+	<script src="{dede:global.cfg_cmspath/}/genban/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+	<script src="{dede:global.cfg_cmspath/}/genban/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="{dede:global.cfg_cmspath/}/genban/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+	<script src="{dede:global.cfg_cmspath/}/genban/js/appear.js" type="text/javascript" ></script>
+	<script src="{dede:global.cfg_cmspath/}/genban/js/modernizr.js" type="text/javascript"></script>
+	<script src="{dede:global.cfg_cmspath/}/genban/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="{dede:global.cfg_cmspath/}/genban/js/isotope.js" type="text/javascript"></script>
+    <script src="{dede:global.cfg_cmspath/}/genban/js/jquery.bxslider.min.js"></script>
+    <script src="{dede:global.cfg_cmspath/}/genban/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{dede:global.cfg_cmspath/}/genban/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{dede:global.cfg_cmspath/}/genban/js/sscr.js"></script>
+    <script src="{dede:global.cfg_cmspath/}/genban/js/skrollr.js"></script>
+
+	<script src="{dede:global.cfg_cmspath/}/genban/js/scripts.js" type="text/javascript"></script>
+    
+    
+	
+	</body>
+</html>

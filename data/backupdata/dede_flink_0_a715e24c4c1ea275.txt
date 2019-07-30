@@ -1,0 +1,2 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.genban.org','跟版网','','','','1438345334','1','2');
+INSERT INTO `dede_flink` VALUES('11','1','http://www.genban.org','织梦源码','','','','1438345344','1','2');
